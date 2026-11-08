@@ -1,0 +1,49 @@
+Live Test: Temperature Converter App
+
+Time Limit: 60 Minutes
+
+Develop a simple Temperature Converter application using Flutter. The application will allow users to enter a temperature value, select a conversion type, and calculate the converted temperature by pressing a button.
+
+Functional Requirements
+
+1. App UI
+Display the app title: Temperature Converter.
+Add a TextField to input a temperature value.
+Add a DropdownButton to select the conversion type.
+Add a Calculate button.
+Display the converted temperature as a result.
+
+2. Conversion Options
+The dropdown must contain two options:
+Celsius to Fahrenheit (°C → °F)
+Fahrenheit to Celsius (°F → °C)
+
+3. Conversion Logic
+Implement the following formulas:
+
+Celsius to Fahrenheit:
+F = (C × 9/5) + 32
+
+Fahrenheit to Celsius:
+C = (F − 32) × 5/9
+
+4. Calculate Button
+When the user presses Calculate:
+Read the input value from the TextField.
+Check whether the input is empty or invalid.
+Perform the selected temperature conversion.
+Display the converted temperature.
+Display the result up to 2 decimal places.
+
+5. Validation
+Show an error message if the TextField is empty.
+Show an error message if the entered value is not a valid number.
+
+Expected UI Layout
+[Reference screenshot provided]
+
+Restrictions
+Do not use a database like Firebase or Supabase.
+You can use any state management to complete the project.
+
+Submission: Complete the Flutter project and demonstrate both conversion operations successfully and submit the code via github repository link.
